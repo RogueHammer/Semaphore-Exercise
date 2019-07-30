@@ -1,0 +1,16 @@
+README for CSC3002F OS Assignment 2
+Steven Mare - MRXSTE008
+
+Makefile functions:
+help - opens this readme
+clean - removes all .class files
+compile - compiles Simulator.class
+run - cleans, compiles, then runs Simulator with default file "sample.txt"
+default - runs help
+
+Assumptions from ambiguous/contradictory Assignment instructions:
+- 1 minute of simulator time is 33 milliseconds
+- Work day starts at 9am, no simulatoion goes beyond midnight.
+- Travel time between branches is 2 minutes, regardless of which branches taxi is travelling between.
+- All people wish to return to hq (branch 0) once jobs are done.
+- Work time given is in minutes
